@@ -5,7 +5,6 @@
 2. Skills Section
 3. Icon Styles
 */
-
 /* ===========================
       1. General Styles
 ============================== */
@@ -33,6 +32,7 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 70px;
+  padding-bottom: 3rem;
 }
 
 section.skills .title {
@@ -55,6 +55,13 @@ section.skills .sub-title {
 /* ===========================
       3. Icon Styles
 ============================== */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
 .icon-html5,
 .icon-css3,
 .icon-javascript,
@@ -79,4 +86,10 @@ section.skills .sub-title {
 
 .icon-intellijidea {
   color: black;
+}
+
+.skill-item span {
+  font-size: 1rem; /* Adjust font size as needed */
+  text-align: center;
+  color: var(--text); /* Use a variable for text color */
 }
