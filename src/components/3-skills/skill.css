@@ -1,0 +1,82 @@
+/* ===========================
+   Table of Contents
+==============================
+1. General Styles
+2. Skills Section
+3. Icon Styles
+*/
+
+/* ===========================
+      1. General Styles
+============================== */
+h2 {
+  color: var(--title);
+}
+
+h3 {
+  color: var(--subtitle);
+}
+
+/* ===========================
+      2. Skills Section
+============================== */
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.frontend,
+.backend,
+.tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+section.skills .title {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+
+section.skills .sub-title {
+  color: var(--subtitle);
+  margin-bottom: 2rem;
+  line-height: 1.65rem;
+}
+
+.skills .sub-title {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===========================
+      3. Icon Styles
+============================== */
+.icon-html5,
+.icon-css3,
+.icon-javascript,
+.icon-bootstrap,
+.icon-angular,
+.icon-react,
+.icon-mongodb,
+.icon-mysql,
+.icon-postgresql,
+.icon-csharp,
+.icon-java,
+.icon-php,
+.icon-node-dot-js,
+.icon-swagger,
+.icon-postman,
+.icon-intellijidea,
+.icon-visualstudio,
+.icon-visualstudiocode,
+.icon-git {
+  font-size: 50px;
+}
+
+.icon-intellijidea {
+  color: black;
+}

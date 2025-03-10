@@ -1,0 +1,74 @@
+/* ===========================
+ table of contents
+==============================
+1. Footer Base Structure
+2. Footer Links Styling
+3. Resume Button Styling
+4. Responsive Design (media query)
+*/
+
+/* ========================
+    1. Footer Base Structure
+=========================== */
+footer.flex {
+  justify-content: space-between;
+  padding-bottom: 1.9rem;
+}
+
+footer.flex p {
+  color: rgb(113 113 122);
+}
+
+/* ========================
+    2. Footer Links Styling
+=========================== */
+footer.flex ul {
+  gap: 1rem;
+}
+
+footer.flex ul a {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+footer.flex ul a:hover {
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* ========================
+    3. Resume Button Styling
+=========================== */
+/* Prominent button styling for resume link */
+footer ul li.resume-button-footer a {
+  background-color: var(--blue);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+footer ul li.resume-button-footer a:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  /* Override general footer link hover styles */
+  font-size: 0.9rem;
+  color: white;
+}
+
+footer.flex .icon-profile {
+  font-size: 2rem;
+}
+
+/* =====================================
+    4. Responsive Design (media query)
+======================================== */
+@media (max-width: 800px) {
+  footer.flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,66 @@
+/* ===========================
+   Table of Contents
+==============================
+1. General Styles
+2. Experience Section
+3. Experience Entry Styles
+*/
+
+/* ===========================
+      1. General Styles
+============================== */
+section.experience-container .title {
+  font-size: 2.1rem;
+  color: var(--title);
+  margin-bottom: 1rem;
+}
+
+section.experience-container .sub-title {
+  color: var(--subtitle);
+  margin-bottom: 1rem;
+  line-height: 1rem;
+}
+
+/* ===========================
+    2. Experience Section
+============================== */
+.experience-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+/* ===========================
+    3. Experience Entry Styles
+============================== */
+.experience-entry {
+  margin-bottom: 20px;
+}
+
+.experience-company {
+  font-size: 18px;
+  font-weight: 600;
+  color: #bbb;
+}
+
+.experience-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.experience-dates {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.experience-description {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
